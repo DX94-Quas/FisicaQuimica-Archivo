@@ -1,0 +1,55 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{IFixit2016}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2f2c03364cb3744f7efcaf1b5dcd5a91}{%
+           family={IFixit},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f2c03364cb3744f7efcaf1b5dcd5a91}
+      \strng{fullhash}{2f2c03364cb3744f7efcaf1b5dcd5a91}
+      \strng{bibnamehash}{2f2c03364cb3744f7efcaf1b5dcd5a91}
+      \strng{authorbibnamehash}{2f2c03364cb3744f7efcaf1b5dcd5a91}
+      \strng{authornamehash}{2f2c03364cb3744f7efcaf1b5dcd5a91}
+      \strng{authorfullhash}{2f2c03364cb3744f7efcaf1b5dcd5a91}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The world's largest repair manual that anyone can edit! Fix it yourself with our easy to use DIY guides for pretty much everything.}
+      \field{title}{{iFixit: Repair Manual – Apps on Google Play}}
+      \field{urlday}{2}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://play.google.com/store/apps/details?id=com.dozuki.ifixit
+      \endverb
+      \verb{url}
+      \verb https://play.google.com/store/apps/details?id=com.dozuki.ifixit
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
