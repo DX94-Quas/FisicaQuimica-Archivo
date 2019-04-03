@@ -1,0 +1,101 @@
+\documentclass[11pt, letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{fontspec}
+\usepackage{array}
+\usepackage{geometry}
+\newenvironment{conditions}
+  {\par\vspace{\abovedisplayskip}\noindent\begin{tabular}{>{$}l<{$} @{${}={}$} l}}
+  {\end{tabular}\par\vspace{\belowdisplayskip}}
+%\usepackage[backend=biber]{biblatex}
+%\addbibresource{Lab1.bib}
+\title{Laboratorio 2 - Líquidos}
+%\date{}
+ 
+\begin{document}
+\maketitle
+\section{Introducción}
+Los líquidos desde un punto de vista teórico son considerados como   una continuación de la fase gaseosa, con ciertas propiedades que lo caracterizan de los demás estados, en las siguientes prácticas demostraremos dichas propiedades de los líquidos.\\
+
+Para la determinación de viscosidad se utilizan los viscosímetros de Ostwald y Stokes.Para la determinación de la densidad, se puede utilizar el densímetro o tan bien se la puede calcular por picnometría.\\
+
+Para la determinación de la tensión superficial existen varias prácticas sencillas
+\section{Marco Teorico}
+Los líquidos se caracterizan por que poseen volumen propio, se adaptan a la forma del recipiente que los contiene, pueden fluir libremente sin que tenga que aplicarse para ello una gran fuerza, ser muy poco compresibles y pasar al estado de vapor a cualquier temperatura.\\
+
+Entre las propiedades de los líquidos tenemos:  viscosidad, tensión superficial, presión de vapor, etc.
+\subsection{Viscosidad}
+Es una medida de la resistencia interna al desplazamiento relativo de las capas sucesivas, debido a las fuerzas de atracción entre las  moléculas de esas capas.\\
+
+Las dos principales formas para determinar la viscosidad son,   utilizando el viscosímetro de Ostwald, y el viscosímetro de Stokes.
+\subsection{Viscosímetro de Ostwald}
+se basa en el principio de flujo de fluidos y es utilizado para  medir  la  viscosidad  de  líquidos  no  muy  viscosos.  Consiste  en  comparar  el tiempo  de  fluido  de  un  líquido  (cuya  densidad  y  viscosidad  son  conocidas),  con  el tiempo de flujo de otro líquido cuya densidad  es conocida, la viscosidad se calcula con la siguiente ecuación:
+
+\begin{equation}
+\frac{\mu _{1}}{\mu_{2}} = \frac{t_{1} \rho_{1} }{t_{2} \rho_{2}}
+\end{equation}
+
+Donde:
+\begin{conditions}
+ \mu _{1} &  Viscosidad de Liquido 1 \\
+ \mu _{2} &  Viscosidad de Liquido 2 \\   
+ t_{1} &  Tiempo de caída de Liquido 1 \\
+ \rho_{1} &  Densidad de Liquido 1 \\
+ t_{2} &  Tiempo de caída de Liquido 2 \\
+ \rho_{2} &  Densidad de Liquido 2
+\end{conditions}
+
+\subsection{Viscosímetro de Stokes}
+se fundamenta en la caída libre de esferas a través de un líquido  viscoso en reposo, básicamente consiste en un tubo de vidrio lleno  del líquido que se quiere determinar su viscosidad, se deja caer la esfera en una altura determinada y con el tiempo que tarda en  recorrer la esfera, dicha altura y conociendo la densidad tanto del líquido como del sólido se calcula la viscosidad con la siguiente ecuación
+
+\begin{equation}
+V_{s} = \frac{2}{9} \frac{r^{2} g (\rho_{p} -\rho_{f})}{\eta}
+\end{equation}
+
+Donde:
+\begin{conditions}
+ V_{s} &  Velocidad de Caída \\
+ g &  Gravedad \\   
+ \rho_{p} &  Densidad de la partícula \\
+ \eta &  Viscosidad del fluido \\
+ r &  Radio de la Partícula \\
+ \rho_{f} &  Densidad del fluido
+\end{conditions}
+
+\subsection{Tension superficial}
+Es la tendencia de un líquido a reducir a lo mínimo el área de su superficie por atracción molecular.\\
+
+La  tensión  molecular  se  define  como  la  fuerza  que  actúa  sobre  la  línea  de  un centímetro de longitud sobre la superficie. La tendencia de líquido a contraerse se debe a que las moléculas que se encuentran dentro del líquido atraen a las moléculas de la superficie.\\
+
+Cuando un líquido descansa sobre una superficie sólida, el ángulo entre un líquido y el  sólido  se  llama  ángulo  de  contacto,  cuando  este  ángulo  es  menor  a  90º,  se  dice que el líquido moja al sólido. Cuando el ángulo aumenta, las fases de atracción entre las fases distintas disminuyen. La tensión superficial se puede calcular con la siguiente ecuación:
+
+\section{Experiencia 5 - Determinacion de la viscosidad mediante viscosimetro de Stokes}
+\subsection{Objetivos}
+\subsubsection{Generales}
+\subsubsection{Específicos}
+
+\section{Resultados}
+\subsection{Experimento de Boyle-Mariotte}
+\begin{table}[h!]
+\centering
+\begin{tabular}{||c c c c||} 
+ \hline
+ Muestra & Col2 & Col2 & Col3 \\ [0.5ex] 
+ \hline\hline
+ 1 & 6 & 87837 & 787 \\ 
+ 2 & 7 & 78 & 5415 \\
+ 3 & 545 & 778 & 7507 \\
+ 4 & 545 & 18744 & 7560 \\
+ 5 & 88 & 788 & 6344 \\ [1ex] 
+ \hline
+\end{tabular}
+\caption{Table to test captions and labels}
+\label{table:1}
+\end{table}
+\subsection{Experimento de Charles}
+abcdefghijklmnopqrstuvwxyz
+\subsection{Experimento de Gay-Lussac}
+\section{Conclusión}
+
+\section{Bibliografía}
+%\printbibliography 
+\end{document}
