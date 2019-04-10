@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.3.27)  8 APR 2019 16:03
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.3.27)  9 APR 2019 23:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -599,7 +599,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
-[2] [3] [4] (./Lab2.aux) ) 
+[2] [3]
+Overfull \hbox (4.25269pt too wide) in paragraph at lines 114--115
+\TU/lmr/m/n/10.95 Descubrir y comprender las propiedades de la tensión superfic
+ial de los líquidos, demostrando
+ []
+
+[4] [5] [6] (./Lab2.aux) ) 
 Here is how much of TeX's memory you used:
  10889 strings out of 494865
  248197 string characters out of 6174961
@@ -609,4 +615,4 @@ Here is how much of TeX's memory you used:
  62 hyphenation exceptions out of 8191
  39i,8n,33p,10405b,233s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Lab2.pdf (4 pages).
+Output written on Lab2.pdf (6 pages).
